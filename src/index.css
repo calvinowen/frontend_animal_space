@@ -1,0 +1,324 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+.svg-component svg {
+  width: 100%;
+  height: auto;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.only-on-mobile {
+  display: none;
+}
+
+.only-on-desktop {
+  display: block;
+}
+
+.card-animal {
+  box-shadow: 5px 5px 11px 1px rgba(0, 0, 0, 0.1);
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 11px 1px rgba(0, 0, 0, 0.1);
+}
+
+.categories-list {
+  border-radius: 82%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px
+}
+
+.space-header-home {
+  display: flex;
+}
+
+.category-section{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://wallpaperset.com/w/full/e/5/d/93425.jpg");
+  padding-top: 49px;
+  padding-bottom: 57px;
+}
+
+.black-screen-ctg{
+  background-color: black;
+  opacity: 0.5;
+}
+
+.banner-section{
+  /* background-color: #e5e5e5; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.create-shelter{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.create-shelter .image-home-create-shelter{
+  width: 200px;
+  margin-right: 30px;
+}
+
+.create-shelter .title-create-shelter{
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.animal-list-img{
+  width: 180px;
+  border-radius: 84px;
+  overflow: hidden;
+}
+
+.section-list-animal{
+  background: #e5e5e5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card-animal .ant-card-meta-title {
+  font-size: 18px;
+}
+
+.card-animal .ant-card-meta-title {
+  font-size: 16px;
+}
+
+.card-animal h5 {
+  color: #0174BE;
+  font-size: 18px;
+}
+
+.border-card-theme{
+  border: 3px solid #0174BE;
+}
+
+.section-info{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-info .title-info{
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: #0174BE;
+}
+
+.section-info .desc-info{
+  font-family: "Montserrat";
+}
+
+.section-info .animal-info-img{
+  width: 150vw;
+}
+
+.section-info .info-grid{
+  display: flex;
+  align-items: center;
+}
+
+.section-info .info-grid .info-box-text{
+  text-align: center;
+}
+
+.shelter-info-detail {
+  color: #0174BE;
+  border: 4px solid #0174BE;
+  border-radius: 50px;
+  padding: 12px;
+}
+
+.cart-grid{
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+
+.cart-grid .cart-grid-col1{
+  width: 70%;
+}
+
+.cart-grid .cart-grid-col2{
+  width: 30%;
+}
+
+.search-list{
+  display: flex;
+  gap: 20px;
+}
+
+.search-list .search-list-col1{
+  width: 30%;
+}
+
+.search-list .search-list-col2{
+  width: 70%;
+}
+
+.search-list-col1-grid{
+  width: 100%;
+}
+
+.search-list .search-category{
+  width: 100% ;
+}
+
+.logo-animal-space{
+  width: 40px;
+  overflow: hidden;
+  border-radius: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-animal-space-home{
+  max-width: 500px;
+}
+
+.section-logo {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+
+  .search-list{
+    flex-wrap: wrap;
+  }
+
+  .search-list .search-category{
+    width: 100% !important;
+  }
+
+  .search-list .search-list-col1{
+    width: 100%;
+  }
+
+  .search-list .search-list-col2{
+    width: 100%;
+  }
+
+  .cart-grid .cart-grid-col1{
+    width: 100%;
+  }
+
+  .section-info .info-grid{
+    flex-wrap: wrap-reverse;
+  }
+
+  .only-on-mobile {
+    display: block;
+  }
+
+  .only-on-desktop {
+    display: none !important;
+  }
+
+  .header-home {
+    padding: 0;
+  }
+
+  .space-header-home {
+    margin: 0;
+  }
+
+  .input-search-home {
+    width: 61vw !important;
+  }
+  
+  span .input-search-home span span .ant-input-affix-wrapper .ant-input-group .css-dev-only-do-not-override-1adbn6x {
+    border-radius: 20px !important;
+  }
+
+  .input-search-home .ant-input {
+    border-radius: 25px;
+  }
+
+  .card-animal {
+    width: 49% !important;
+  }
+
+  .card-animal img {
+    height: 173px !important;
+  }
+
+  .categories-list{
+    width: 130px;
+    height: 130px;
+  }
+
+  .categories-title{
+    width: 130px;
+  }
+
+  .categories-card{
+    height: 100%;
+  }
+
+  .contact-shelter-transaction{
+    justify-content: end !important;
+  }
+
+  .content-layout{
+    padding: 0 !important;
+  }
+
+  .card-animal-list .ant-card-body{
+    padding: 10px;
+  }
+
+  .card-content-animal .ant-card-body{
+    padding: 10px;
+  }
+}
