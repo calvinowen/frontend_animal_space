@@ -2,7 +2,7 @@ import { CloseCircleOutlined } from "@ant-design/icons";
 import { Modal } from "antd";
 import axios from "axios";
 
-export const BASE_URL = 'https://animal-space-9ec9cc19e523.herokuapp.com'
+export const BASE_URL = 'https://animal-space-service-1214c8cad194.herokuapp.com'
 // export const BASE_URL = 'http://localhost:3000'
 
 export const storeToken = () => {
