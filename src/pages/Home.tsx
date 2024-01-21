@@ -64,15 +64,15 @@ export default function Home() {
             navigate('/waiting-approve-shelter')
         }
 
-        if(getUser()?.shelter_status === 'reject'){
+        else if(getUser()?.shelter_status === 'reject'){
             navigate('/edit-shelter')
         }
 
-        if(getUser()?.shelter_id){
+        else if(getUser()?.shelter_id){
             navigate('/shelter/home')
         }
 
-        if(getUser()?.role === 'admin'){
+        else if(getUser()?.role === 'admin'){
             navigate('/admin/home')
         }
 
