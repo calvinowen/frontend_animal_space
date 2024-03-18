@@ -133,6 +133,14 @@ export default function DetailAnimal() {
                                         <Typography.Text strong>{data?.Gender}</Typography.Text>
                                     </Col>
                                 </Row>
+                                <Row>
+                                    <Col span={10}>
+                                        <Typography.Text>Age    :</Typography.Text>
+                                    </Col>
+                                    <Col>
+                                        <Typography.Text strong>{data?.Age && (data?.Age + ' Tahun') }{' '}{data?.Month && (data?.Month + ' Bulan') } </Typography.Text>
+                                    </Col>
+                                </Row>
                                 {/* <Row>
                                     <Col span={10}>
                                         <Typography.Text>Jumlah   :</Typography.Text>
